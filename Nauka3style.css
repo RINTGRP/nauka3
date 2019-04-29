@@ -1,0 +1,19 @@
+.overall {
+    width: 800px;
+    margin: 0 auto;
+    border: solid 2px rgb(255, 84, 84);
+}
+.image {
+    width: 600px;
+    margin: 50px auto;
+    border: solid 4px rgb(255, 84, 84);
+}
+img {
+    max-width: 600px;
+}
+.visible {
+    display: block;
+}
+.hidden {
+    display: none;
+}
