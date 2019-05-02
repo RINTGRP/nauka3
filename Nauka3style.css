@@ -11,9 +11,20 @@
 img {
     max-width: 600px;
 }
-.visible {
+.image img {
+    display: none;
+}
+
+.image img .visible {
     display: block;
 }
-.hidden {
-    display: none;
+.dots {
+    text-align: center;
+}
+.dots svg circle:hover {
+    fill:#00ac22;
+}
+.dots svg circle {
+    transition: 0.5s;
+    cursor: pointer;
 }
