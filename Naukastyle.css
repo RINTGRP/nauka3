@@ -3,17 +3,14 @@
     margin: 0 auto;
     border: solid 2px rgb(255, 84, 84);
 }
-.image {
+.images {
     width: 600px;
     margin: 50px auto;
     border: solid 4px rgb(255, 84, 84);
+    height: 500px;
 }
-img {
-    max-width: 600px;
-}
-
-.hidden {
-    display: none;
+.visible {
+    display: block;
 }
 .dots {
     text-align: center;
@@ -24,4 +21,14 @@ img {
 .dots svg circle {
     transition: 0.5s;
     cursor: pointer;
+}
+.images img:not(.visible) {
+    display:none;
+}
+.image {
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
