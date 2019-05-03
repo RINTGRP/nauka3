@@ -11,9 +11,6 @@
 img {
     max-width: 600px;
 }
-.image img {
-    display: none;
-}
 
 .image img .visible {
     display: block;
