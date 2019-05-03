@@ -10,9 +10,13 @@
 }
 img {
     max-width: 600px;
+    margin: auto;
 }
 
-.hidden {
+.visible {
+    display: block;
+}
+.image img:not(.visible) {
     display: none;
 }
 .dots {

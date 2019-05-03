@@ -1,14 +1,24 @@
 document.querySelector(".circlea").onclick=function(){
-    document.querySelector(".hidden").classList.remove("hidden");
-    document.querySelector(".tomato").classList.add("hidden");
+    
+    
+    document.querySelectorAll(".image img").forEach(function (element) {
+        element.classList.remove("visible")
+    });
 
-    console.log('clicked: ' + document.querySelector(".tomato").classList);
+    document.querySelector(".tomato").classList.add("visible");
+
+    
 }
 document.querySelector(".circleb").onclick=function(){
-    document.querySelector(".hidden").classList.remove("hidden");
-    document.querySelector(".cucumber").classList.add("hidden");
+    let hidden = document.querySelectorAll(".image img.visible")
+    for (i=0; i<hidden.length; i++) {
+        console.log('i: ' + i);
+        hidden[i].classList.remove("visible");
+    }
+    document.querySelector(".cucumber").classList.add("visible");
 }
 document.querySelector(".circlec").onclick=function(){
-    document.querySelector(".hidden").classList.remove("hidden");
-    document.querySelector(".carrot").classList.add("hidden");
+    document.querySelector(".tomato").classList.remove("visible");
+    document.querySelector(".cucumber").classList.remove("visible");
+    document.querySelector(".carrot").classList.add("visible");
 }
