@@ -10,3 +10,7 @@ document.querySelector(".circlec").onclick=function(){
     document.querySelector(".visible").classList.remove("visible");
     document.querySelector(".carrot").classList.add("visible");
 }
+document.querySelector(".size-changer").onclick=function(){
+    document.querySelector(".small").classList.remove("small").classlist.add("big")
+    document.querySelector(".big").classList.remove("big").classList.add("small")
+}

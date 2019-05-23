@@ -1,4 +1,4 @@
-.overall {
+.overall-gallery {
     width: 800px;
     margin: 0 auto;
     border: solid 2px rgb(255, 84, 84);
@@ -31,4 +31,32 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+.classes {
+    margin-top: 500px;
+    text-align: center;
+}
+.size-changer {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin: 20px auto;
+}
+.magic-text {
+    background-color: #6abeff;
+    color: #406dff;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
+.big {
+    width: 300px;
+    height: 60px;
+    font-size: 40px;
+}
+.small {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
 }
