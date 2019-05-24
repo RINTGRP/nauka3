@@ -49,6 +49,7 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 3px;
+    transition: all 1s;
 }
 .big {
     width: 300px;

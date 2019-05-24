@@ -11,6 +11,7 @@ document.querySelector(".circlec").onclick=function(){
     document.querySelector(".carrot").classList.add("visible");
 }
 document.querySelector(".size-changer").onclick=function(){
-    document.querySelector(".small").classList.remove("small").classlist.add("big")
-    document.querySelector(".big").classList.remove("big").classList.add("small")
+    let mTextSel=document.querySelector(".magic-text");
+    mTextSel.classList.toggle("small");
+    mTextSel.classList.toggle("big");
 }
